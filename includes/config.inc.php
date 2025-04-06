@@ -1,18 +1,18 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'WEB-gyak1',
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.png',
+    'kepforras' => 'book_icon_2.png',
     'kepalt' => 'logo',
-	'cim' => 'Mini honlap',
+	'cim' => 'Receptek',
 	'motto' => ''
 );
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
+    'ceg' => 'Gacov Richárd Rómeó - QDT8Y7'
 );
 
 $oldalak = array(
