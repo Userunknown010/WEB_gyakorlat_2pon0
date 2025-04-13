@@ -1,0 +1,58 @@
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 2rem;
+    color: rgb(35, 167, 52);
+}
+
+#kategorialink{
+    color: black; 
+    text-decoration:none;
+}
+
+#kategorialink:hover{
+    color: rgb(35, 167, 52);
+    transition: 0.2s;
+}
+
+#ajanlasok{
+    background-color: rgba(35, 167, 53, 0.7);
+    border-radius: 5px;
+}
+
+#food{
+    text-align: center;
+}
+#food li{
+    list-style-type: none;
+}
+#food ul{
+    padding: 0;
+}
+#food a{
+    color: black; 
+    text-decoration:none;
+}
+
+#food a:hover{
+    padding-left: 10px;
+    transition: 0.3s;
+}
+#fiznagyobb{
+    color: black; 
+    text-decoration:none;
+}
+
+#fiznagyobb:hover{
+    padding-left: 10px;
+    transition: 0.3s;
+}
+h3{
+    text-decoration: underline;
+}
+#fizcim{
+    margin: auto;
+}

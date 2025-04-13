@@ -5,97 +5,49 @@ body{
     margin:0;
     padding: 0;
 }
-header {
-    /*border-radius: 10px;
-    background-color: yellow;
-    padding: 10px;
-    margin: 10px;*/
-    position: sticky;
+header{
     top: 0;
-    z-index: 1000;
+    z-index: 10;
     background-color: rgb(35, 167, 52);
+}
+.navbar{
+    justify-content: center;
+    width: 100%;
+}
+.active{
+    border: 1px solid white;
+}
+
+.icon_and_title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     height: 80px;
 }
 
-.icon_and_title{
-    width: 400px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-}
-/*header img {
-    float: left;
-    margin: 20px 10px 0px 10px;
-}*/
-header img {
-    float: left;
+.icon_and_title img {
     height: 50px;
     width: 50px;
 }
 
-div#wrapper {
-    margin: 10px;
-}
-
-/*
-aside {
-    display: table-cell;
-    vertical-align: top;
-}
-
-nav {
-    margin: 0px 10px 0px 0px;
-    top: 0px;
-    border-radius: 10px;
-    background-color: #FF6600;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 15px 0px;
-}
-
-nav ul li {
-    padding: 0px 15px;;
-}
-
-nav ul li.active {
-    border-right: 5px solid blue;
-}
-
-nav ul a {
-    text-decoration: none;
-    color: blue;
-}*/
-.navbar {
-    display: flex;
-    justify-content: flex-end; /* Középre vízszintesen */
-    align-items: center; /* Középre függőlegesen */
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    width: 100%;
-    height: 50px;
-    background-color: transparent;
-}
 #menu1 {
     display: flex;
+    flex-wrap: wrap; 
     gap: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 #menu1 li {
     padding: 0px 15px;
-    display: inline;
+    border-radius: 10px;
+    background-color: transparent;
     color: white;
     display: flex;
-    justify-content: center; /* Középre vízszintesen */
-    align-items: center; /* Középre függőlegesen */
-    border-radius: 10px;
-    height: 30px;
+    align-items: center;
+    height: auto;
+    white-space: nowrap;
 }
 
 #menu1 li:hover {
@@ -113,7 +65,15 @@ nav ul a {
     justify-content: center;
     align-items: center;
 }
+#logedin{
+    color: black;
+}
+#logedninszoveg{
+    text-decoration: underline;
+}
+/* navbar vége*/
 
+/*BEJELENTKEZÉS OLDAL*/
 .logcontainer{
     position: relative;
     width: 100%;
