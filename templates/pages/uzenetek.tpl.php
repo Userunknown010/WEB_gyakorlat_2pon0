@@ -1,33 +1,29 @@
-<table>
-    <caption>5. gyakorlat 1. feladat:<br>TÁBLÁZAT</caption>
-    <tr>
-        <th>Employee</th>
-        <th>Salary</th>
-        <th>Bonus</th>
-        <th>Supervisor</th>
-    </tr>
-    <tr>
-        <td>Stephen C. Cox</td>
-        <td>$300</td>
-        <td>$50</td>
-        <td>Bob</td>
-    </tr>
-    <tr>
-        <td>Josephin Tan</td>
-        <td>$150</td>
-        <td>-</td>
-        <td>Annie</td>
-    </tr>
-    <tr>
-        <td>Joyce Ming</td>
-        <td>$200</td>
-        <td>$35</td>
-        <td>Andy</td>
-    </tr>
-    <tr>
-        <td>James A. Pentel</td>
-        <td>$175</td>
-        <td>$25</td>
-        <td>Annie</td>
-    </tr>
-</table>
+<body>
+    <div class="uzenetekcontiner">
+        <div class="card shadow-sm p-4">
+            <h1>Üzenetek</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>E-mail</th>
+                        <th>Szöveg</th>
+                        <th>Küldés ideje</th>
+                        <th>Küldő</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($messages as $message): ?>
+                        <tr>
+                            <td><?php echo htmlspecialchars($message['nev']); ?></td>
+                            <td><?php echo htmlspecialchars($message['email']); ?></td>
+                            <td><?php echo nl2br(htmlspecialchars($message['szoveg'])); ?></td>
+                            <td><?php echo htmlspecialchars($message['kuldes_datuma']); ?></td>
+                            <td><?php echo htmlspecialchars($message['kuldo']); ?></td> <!-- Küldő neve -->
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>

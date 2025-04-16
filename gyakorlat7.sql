@@ -11,6 +11,17 @@ CREATE TABLE `felhasznalok` (
   `jelszo` varchar(40) NOT NULL default '',
   PRIMARY KEY  (`id`)
 )
+
+CREATE TABLE `uzenetek` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nev` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `szoveg` text NOT NULL,
+  `kuldes_datuma` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `kuldo` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
 ENGINE = MYISAM
 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
