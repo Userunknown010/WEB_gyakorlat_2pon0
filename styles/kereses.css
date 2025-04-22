@@ -1,0 +1,28 @@
+.keresescontainer {
+	max-width: 600px;
+	margin: 50px auto;
+}
+
+.card {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.food ul{
+    padding-left: 20px;
+}
+.food a{
+    color: black; 
+    text-decoration:none;
+}
+
+.food a:hover{
+    padding-left: 10px;
+    transition: 0.3s;
+}

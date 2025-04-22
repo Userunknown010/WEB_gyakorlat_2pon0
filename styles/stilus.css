@@ -73,54 +73,6 @@ header{
 }
 /* navbar vége*/
 
-/*BEJELENTKEZÉS OLDAL*/
-.logcontainer{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: #f3fff92c;
-}
-
-.logcontaineritems{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    transform: translate(-50%,-50%);
-    top: 40%;
-    left: 50%;
-    width: 400px;
-    height: 570px;
-    border: 2px solid rgb(192, 192, 192);
-    border-radius: 10px;
-    padding: 20px;
-}
-
-#log , #reg {
-    width: 100%;
-    height: 100%;
-}
-#log fieldset{
-    height: 100%;
-}
-fieldset{
-    padding: 10;
-}
-.logcontaineritems p{
-    font-size: 20px;
-}
-#gombinp, #beinp{
-    width: 100%;
-    margin: 10px 0px;
-}
-#beinp{
-    height: 30px;
-}
-#gombinp{
-    height: 30px;
-}
-
 div#content {
     display: table-cell;
     width: 100%;
